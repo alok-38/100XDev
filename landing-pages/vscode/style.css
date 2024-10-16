@@ -200,14 +200,67 @@ h1 {
   color: #475569;
   font-weight: 500;
   margin-bottom: 32px;
+  margin-top: 25px;
   line-height: 150%;
   letter-spacing: -0.3px;
 }
 
 /* Download buttons */
-.hero-content .download-content button {
-  text-align: center;
-  flex-wrap: wrap;
-  gap: 10px;
+.download-content {
+  display: flex;
   justify-content: center;
+  gap: 10px;
+}
+
+.download-content button {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+  font-size: 1.8rem;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 0;
+}
+
+.download-content button:first-of-type {
+  background-color: #0078d4;
+  color: #ffffff;
+}
+
+.download-content button:nth-of-type(2) {
+  background-color: #eaeaea;
+  color: #333333;
+}
+
+.download-content button:nth-of-type(2):hover {
+  background-color: #e3e3e3;
+}
+
+.download-content button:first-of-type:hover {
+  background-color: #0076bf;
+}
+
+.terms {
+  margin: 8px 0 10px 0;
+  font-size: 11px;
+  font-weight: 400;
+  color: #333333;
+  text-decoration-color: #333333;
+  opacity: 1;
+  transition-timing-function: ease-out;
+  transition-duration: 0.15s;
+}
+
+.terms a {
+  font-size: 11px;
+  color: #333333;
+  text-decoration-color: #333333;
+}
+
+.home-screenshot {
+  width: 1240px;
+  height: 775px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 }
