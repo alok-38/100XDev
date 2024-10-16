@@ -47,3 +47,20 @@ nav ul {
 }
 
 /* Place the search icon inside input */
+.search-container {
+  position: relative;
+  display: flex;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  /* Prevent the icon from interfering with input interactions */
+  pointer-events: none;
+}
+
+.search {
+  padding-left: 30px;
+}
