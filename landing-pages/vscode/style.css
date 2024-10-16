@@ -17,12 +17,21 @@ a {
   text-decoration: none;
 }
 
+button,
+input {
+  cursor: pointer;
+  outline: unset;
+  border: unset;
+  background: transparent;
+}
+
 /* left navbar */
 .navbar--brand {
   background-image: url("./assets/logo.png");
   background-size: 24px 24px;
   background-repeat: no-repeat;
   background-position: left 50%;
+  padding-left: 36px;
 }
 
 /* right navbar */
@@ -33,13 +42,9 @@ a {
 
 /* header nav flex container */
 
-header {
-  padding: 25px 0 50px 0;
-}
-
 header nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 nav ul {
@@ -63,4 +68,91 @@ nav ul {
 
 .search {
   padding-left: 30px;
+}
+
+/* navbar */
+nav {
+  font-size: 20px;
+  font-weight: 600;
+  min-height: 58px;
+  padding-top: 19px;
+  line-height: 20px;
+}
+
+nav a {
+  color: #242424;
+  cursor: pointer;
+  padding-left: 12px;
+  padding-right: 12px;
+  transition: opacity 0.08s ease-in;
+}
+
+nav a:not(.navbar--brand) {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* theme switch */
+.theme-switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 4px;
+  margin-right: 4px;
+}
+
+.theme-switch:hover {
+  background-color: #cccccc;
+}
+
+.theme-switch img {
+  height: 20px;
+  width: 20px;
+}
+
+/* right nav */
+.right-nav {
+  display: flex;
+  align-items: center;
+}
+
+.right-nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+/* input field */
+.search {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+  padding: 6px 12px 6px 36px;
+  height: unset;
+  border-radius: 4px;
+}
+
+.search::placeholder {
+  color: #0078d4;
+  font-weight: 400;
+}
+
+.search:focus {
+  border: 1px solid #0078d4;
+}
+
+/* right nav button */
+.right-nav li:last-child button {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 100%;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #0078d4;
+}
+
+.right-nav li:last-child button:hover {
+  background-color: #0076bf;
 }
