@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* left navbar */
+.navbar--brand {
+  background-image: url("./assets/logo.png");
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  background-position: left 50%;
+}
+
+/* right navbar */
+.theme-switch {
+  height: 20px;
+  height: 20px;
+}
+
+/* header nav flex container */
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul {
+  display: flex;
+}
