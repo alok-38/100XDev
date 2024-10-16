@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 ul,
@@ -31,6 +33,10 @@ a {
 
 /* header nav flex container */
 
+header {
+  padding: 25px 0 50px 0;
+}
+
 header nav {
   display: flex;
   justify-content: space-around;
@@ -39,3 +45,5 @@ header nav {
 nav ul {
   display: flex;
 }
+
+/* Place the search icon inside input */
