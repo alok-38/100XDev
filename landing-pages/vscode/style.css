@@ -45,6 +45,7 @@ input {
 header {
   width: 1320px;
   margin: 0 auto;
+  border-bottom: 1px solid #cccccc;
 }
 
 header nav {
@@ -168,4 +169,45 @@ nav a:not(.navbar--brand) {
 
 .right-nav li:last-child button:hover {
   background-color: #0076bf;
+}
+
+/* main */
+main {
+  overflow-x: hidden;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 16px 0;
+}
+
+h1 {
+  font-size: 72px;
+  max-width: 1000px;
+  color: #242424;
+  font-weight: 700;
+  margin-top: 1rem;
+  line-height: 120%;
+  letter-spacing: -0.8px;
+}
+
+.hero-description {
+  font-size: 26px;
+  max-width: 720px;
+  color: #475569;
+  font-weight: 500;
+  margin-bottom: 32px;
+  line-height: 150%;
+  letter-spacing: -0.3px;
+}
+
+/* Download buttons */
+.hero-content .download-content button {
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }
