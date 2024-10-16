@@ -42,9 +42,14 @@ input {
 
 /* header nav flex container */
 
+header {
+  width: 1320px;
+  margin: 0 auto;
+}
+
 header nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 nav ul {
@@ -110,6 +115,14 @@ nav a:not(.navbar--brand) {
 .theme-switch img {
   height: 20px;
   width: 20px;
+}
+
+/* left nav */
+
+.left-nav li {
+  display: flex;
+  align-items: center;
+  height: 50px;
 }
 
 /* right nav */
