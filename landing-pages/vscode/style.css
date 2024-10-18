@@ -268,3 +268,18 @@ h1 {
 
 /* Second section */
 
+.github-copilot {
+  width: 1240px;
+  display: flex;
+  margin: 100px auto 0 auto;
+  gap: 100px;
+}
+
+.copilot {
+  width: 350px;
+}
+
+.copilot-screenshot img {
+  height: 339px;
+  width: 720px;
+}
