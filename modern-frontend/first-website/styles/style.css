@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #372853;
+}
+
+img {
+  max-width: 20rem;
+  width: 100%;
+}
