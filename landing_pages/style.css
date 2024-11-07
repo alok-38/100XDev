@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Navigation */
+nav a {
+	text-decoration: none;
+}
+
+/* header */
+nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+/* Navigation nav brand */
+.logo .navbar-brand {
+	background-image: url('./images/vscode_logo.png');
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+	background-position: left 50%;
+	padding-left: 36px;
+	font-size: 20px;
+	color: #242424;
+	min-height: 58px;
+	padding-top: 19px;
+	line-height: 20px;
+	font-weight: 600;
+	letter-spacing: -0.2px;
+}
+
+.navbar-brand {
+	height: 50px;
+	padding: 15px 15px;
+}
+
+/* left nav */
+.left__nav {
+	display: flex;
+}
+
+.left__nav ul {
+	display: flex;
+}
